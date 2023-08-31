@@ -1,0 +1,25 @@
+.about-section{
+    text-align: center;
+    font-size: 15px;
+}
+.about-section p{
+    font-size: 20px;
+}
+
+.Review{
+    text-align: center;
+    font-size: 15px;
+}
+.Review p{
+    font-size: 20px;
+}
+
+.bookshelf-contact{
+    text-align: center;
+}
+.bookshelf-contact {
+    font-size: 15px;
+}
+.bookshelf-contact li{
+    font-size: 20px;
+}

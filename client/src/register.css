@@ -1,0 +1,109 @@
+.signup-container {
+	width: 100%;
+	min-height: 100vh;
+	background-color: #f5f5f5;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+   
+}
+
+.signup-form-container {
+	width: 900px;
+	height: 500px;
+	display: flex;
+	border-radius: 10px;
+	box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%),
+		0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
+}
+
+.le-ft {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: blue;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+
+}
+
+.le-ft h1 {
+	margin-top: 0;
+	color: white;
+	font-size: 35px;
+	align-self: center;
+}
+
+.r-ight {
+	flex: 2;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.form-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.form-container h1 {
+	font-size: 40px;
+	margin-top: 0;
+}
+
+.input {
+	outline: none;
+	border: none;
+	width: 370px;
+	padding: 15px;
+	border-radius: 10px;
+	background-color: #edf5f3;
+	margin: 5px 0;
+	font-size: 14px;
+}
+
+.error_msg {
+	width: 370px;
+	padding: 15px;
+	margin: 5px 0;
+	font-size: 14px;
+	background-color: #f34646;
+	color: white;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.white-btn,
+.g-reen-btn {
+	border: none;
+	outline: none;
+	padding: 12px 0;
+	background-color: white;
+	border-radius: 20px;
+	width: 180px;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.g-reen-btn {
+	background-color: blue;
+	color: white;
+	margin: 10px;
+}
+
+.form-container h2{
+	font-size: 3rem;
+  font-weight: 450;
+  text-transform: uppercase;
+  background: -webkit-linear-gradient(#eee, rgb(69, 57, 248));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

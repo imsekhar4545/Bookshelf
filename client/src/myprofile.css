@@ -1,0 +1,70 @@
+.main-content{
+    text-align: center;
+}
+.welcome-section{
+    font-size: 20px;
+    background-color: blue;
+    border-top: 2px solid blue;
+    border-left: 2px solid blue;
+    border-right: 2px solid blue;
+    
+}
+.welcome-section h1{
+    color: white;
+}
+.welcome-section p{
+    color: white;
+}
+.welcome-section h3{
+    color: white;
+}
+.welcome-section button{
+    padding: 7px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+.welcome-section button:hover{
+    background-color: yellow;
+    color: red;
+}
+.collection-name{
+    text-align: center;
+    margin-top: 10px;
+    border-bottom: 2px solid blue;
+}
+.collection-names{
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+.collection img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  height: 250px;
+}
+
+.form-books{
+    border: 2px solid rgb(66, 50, 205);
+}
+.book-info{
+    margin-top: 10px;
+    font-size: 15px;
+}
+.book-info li{
+    color: blue;
+}
+.book-name{
+    font-size: 20px;
+    color: blue;
+}
+
+.thanks-note{
+    background-color: blue;
+    font-size: 20px;
+    color: white;
+}
