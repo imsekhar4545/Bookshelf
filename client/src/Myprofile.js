@@ -13,7 +13,7 @@ const Myprofile = () => {
     const [token,setToken] = useContext(store);
     const [data,setData] = useState(null);
     useEffect(() =>{
-        axios.get('http://localhost:5000/myprofile',{
+        axios.get('https://bookshelf-server-ve0m.onrender.com/myprofile',{
             headers: {
                 'x-token' : token
             }
